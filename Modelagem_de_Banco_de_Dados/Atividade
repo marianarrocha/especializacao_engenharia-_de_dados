@@ -1,0 +1,20 @@
+Para a 1ª. parte, os alunos deveram realizar a modelagem conceitual para o cenário proposto a seguir.
+
+Uma empresa de transporte marítimo deseja um sistema automatizado que a auxilie a alocar as cargas nos navios, de acordo com sua capacidade e destino.  
+Cada carga deverá ser transportada integralmente por um único navio sem “transbordo”, ou seja, não pode ser dividida por mais de um navio, nem fazer “baldeação” (descer em um porto e ser embarcada em outro navio).
+
+
+No momento em que a carga é aceita para ser transportada, é colada uma etiqueta contendo o número desta carga, o porto destino, seu peso em Kg, 
+a data máxima para desembarque no porto destino (caso isto não seja atendido a empresa pagará uma multa diária), o código do agente receptor no porto destino, e a data de validade, no caso de carga perecível,
+ou a temperatura máxima no caso de carga sensível.  Todo porto possui vários agentes receptores (cada agente opera em um único porto) e esta escolha é feita por indicação interna.
+
+
+No fim do expediente o supervisor, para cada carga não embarcada, consulta uma relação contendo os navios e os portos que pertencem á rota dos navios. 
+Caso encontre um navio que passe pelo porto destino antes da data máxima para desembarque e possua capacidade disponível, a carga é “embarcada” neste navio (se o navio passar por este porto mais de uma vez, 
+a carga será desembarcada, sempre, na primeira chegada ao porto).
+
+
+Para a 2ª. parte, os alunos devem implementar a criação do banco de dados, tabelas com campos, relações se necessário de acordo o cenário proposto.
+
+
+Para a 3ª. parte, os alunos devem explorar a elaboração de consultas que possam recuperar dados com ordenação, usando junções, agrupamento e views. No mínimo 5 instruções ao todo.
